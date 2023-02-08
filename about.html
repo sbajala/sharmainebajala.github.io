@@ -10,6 +10,8 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/copyEmail.css" />
+
 	</head>
 	<body class="is-preload">
 		<div id="page-wrapper">
@@ -28,15 +30,22 @@
 				<section id="main" class="container">
 					<header>
 						<h2>Sharmaine Bajala-Tuazon</h2>
-						<h4>Software Developer</h4>
-						<h5>514-260-1167 - sj.bajala@gmail.com - <a href="https://www.linkedin.com/in/sharmainebajala/">LinkedIn</a></h5>
+						<h3>Junior Software Developer</h3>
+						<h4>514-260-1167 - 
+							<div class="tooltip">
+							<button class="custom-button" onclick="copyEmail()" onmouseout="outFunc()" style="background-color: transparent; cursor: pointer; line-height: normal;">sj.bajala@gmail.com
+								<span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+							</a>
+								- 
+							</div>
+							<a href="https://www.linkedin.com/in/sharmainebajala/">LinkedIn</a></h4>
 					</header>
 					<div class="box">
 						<h3>Professional profile</h3>
 						<p>I'm a student in programming and web technologies at l'Institut Supérieur d'Informatique (ISI). 
-							Throughout my studies, I've gained experience and knowledge in developing both backend and frontend applications both individually and in teams. 
-							Most recently, I had the opportunity to practice Scrum for a final project in which I collaborated with teammates, attended sprint planning and sprint reviews, and contributed to the development of the project. </p>
-						<p>I'm a self-disciplined, optimistic, and collaborative person who continuously strives to expand their knowledge and refine their abilities as a software developer. 
+							Throughout my studies, I've gained knowledge and experience in developing back-end, front-end, and android mobile applications and enhanced my programming skills. 
+							I enjoy problem-solving, designing,   thinking about how to improve applications' efficiency and/or users' experience. <br/> <br/>
+							I'm a self-disciplined, optimistic, and collaborative person who continuously strives to expand their knowledge and refine their abilities as a software developer. 
 							I value teamwork, respect, and accountability. I believe that it is important to actively contribute in creating a safe, positive, and supportive environment for others--whether it is at work or at school. 
 							I equally value teamwork because I enjoy learning from others as well as helping others reach their goals </p>
 						<div class="row">
@@ -44,7 +53,7 @@
 								<h3>Technical skills</h3>
 								<p><b>Programming skills:</b> Android, C++, C#, Go, Java, JavaScript, PHP, Python
 									<br/>
-									<b>RDBMS:</b> Microsoft SQL Server, MySQL Workbench, SQLite, PostgreSQL
+									<b>RDBMS:</b> Microsoft SQL Server, MySQL Workbench, SQLite, PostgreSQL, MariaDB
 									<br/>
 									<b>IDE:</b> Visual Studio, VS Code, IntelliJ, Eclipse, Android Studio
 									<br/>
@@ -53,14 +62,27 @@
 									<b>Others:</b> Git, Docker
 								</p>
 							</div>
-
+						</div>
+						<div class="row">
+							<div class="row-6 row-12-mobilep">
+								<h3>Education</h3>
+								<p><b>Programming and Internet technologies &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp 2021-</b>
+									<br/>
+									<i>Attestation of College Studies</i>
+									<br/>
+									Institut Supérieur d'Informatique, Montreal
+		
+								</p>
+							</div>
+						</div>
+						<div class="row">
 							<div class="row-6 row-12-mobilep">
 								<h3 style="text-align: center;">Projects</h3>
 								<a href="index.html" class="button alt">View all</a>
 							</div>
 							<div class="row-6 row-12-mobilep">
 								<h3 style="text-align: center;">CV</h3>
-								<a href="./files/SharmaineBajala_CV.pdf#toolbar=0" class="button alt">View</a>
+								<a href="./files/SharmaineBajala_CV.pdf" class="button alt">View</a>
 							</div>
 						</div>
 					</div>
@@ -69,11 +91,11 @@
 			<!-- Footer -->
 				<footer id="footer">
 					<ul class="icons">
-						<li><a href="#" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-						<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="https://www.linkedin.com/in/sharmainebajala/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://github.com/sbajala" class="icon brands fa-github"><span class="label">Github</span></a></li>
 					</ul>
 					<ul class="copyright">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<li>&copy; Sharmaine Bajala. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 					</ul>
 				</footer>
 
@@ -87,6 +109,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/emailUtil.js"></script>
 
 	</body>
 </html>
