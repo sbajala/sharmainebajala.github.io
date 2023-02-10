@@ -1,11 +1,12 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Sharmaine Bajala - Portfolio</title>
+		<title>Sharmaine Bajala Portfolio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/copyEmail.css" />
+		<link rel="stylesheet" href="assets/css/custom.css" />
 
 	</head>
 	<body class="landing is-preload">
@@ -18,6 +19,7 @@
 						<ul>
 							<li><a href="index.html">Home</a></li>
 							<li><a href="about.html">About me</a></li>
+							<li><a href="./files/SharmaineBajala_CV.pdf" target="_blank">CV</a></li>
 							<li><a href="https://www.linkedin.com/in/sharmainebajala/" target="_blank">LinkedIn</a></li>
 							<li><a href="https://github.com/sbajala" target="_blank">GitHub</a></li>
 						</ul>
@@ -26,15 +28,15 @@
 
 			<!-- Banner -->
 				<section id="banner">
-					<h2>Sharmaine Bajala-Tuazon</h2>
-					<h3>Junior Software Developer</h3>
+						<h2 class="colored-title">Sharmaine Bajala-Tuazon</h2>
+						<h3>Junior Software Developer</h3>
 						<h4>514-260-1167 -
 						<div class="tooltip">
 							<button class="custom-button" onclick="copyEmail()" onmouseout="outFunc()" style="background-color: transparent; cursor: pointer; line-height: normal;">sj.bajala@gmail.com
 								<span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
 							</a>
 						</div> - 
-						<a href="https://www.linkedin.com/in/sharmainebajala/" target="_blank">LinkedIn</a></h4>
+						<a href="./files/SharmaineBajala_CV.pdf">CV</a>
 				</section>
 
 			<!-- Main -->
@@ -44,21 +46,30 @@
 						<header class="major">
 							<img src="images/dp2.jpg" alt="" style="width: 200px; height: 200; border-radius: 50%;"/>
 							<br/>
-							<p>Hi, I'm Sharmaine. Welcome to my portfolio! I'm a student in <b>programming and web technologies</b> who is currently seeking to work as a <b>Junior Software Developer</b>. My projects are presented below. </p>
+							<p>Hi, I'm Sharmaine. Welcome to my portfolio!<br/> I'm a student in <b>programming and web technologies</b> who is currently seeking to work as a <b>Junior Software Developer</b>.  
+								<br/>
+								-
+								<br/>
+								Over the course of my studies, I developed <b>back-end</b>, <b>front-end</b>, and <b>android mobile</b> applications using various IDE ( 
+								such as Visual Studio, IntelliJ, and Eclipse) as well as different RDBMS (such as MySQL Workbench, SQLite, and PostgreSQL).
+								I equally have experience using <b>Git</b> to collaborate with others and <b>Docker</b> to run and test applications.
+								<br/>
+								-
+								<br/>
+								You can learn more <a href="about.html"><b>about me</b></a></li> or view my projects down below. </p>
 							<br/>
-							<a href="about.html" class="button alt">About me</a></p>
+							
 						</header>
 					</section>
-					
-						<h2 style="text-align: center; padding: 20px">My projects</h2>
+				
 					<div class="row">
 						<!-- Reading List Tracker -->
 						<div class="col-6 col-12-narrower">
 
 							<section class="box special">
 								<span class="image featured"><img src="images/ReadingListTrackerBanner.jpg" alt="" /></span>
-								<h3>Reading List Tracker</h3>
-								<p>Java, XML, Android Studio, SQLite</p>
+								<h3 class="colored-title">Reading List Tracker</h3>
+								<p>XML, Android Studio, SQLite</p>
 								<p>Individual project</p>
 								<p>Android Mobile application that allows users to keep track of their readings. Users are able to view, add, remove, and update books in their reading list.</p>
 								<ul class="actions special">
@@ -73,8 +84,8 @@
 
 							<section class="box special">
 								<span class="image featured"><img src="images/MusicPlaylist.png" alt="" /></span>
-								<h3>Music Playlist</h3>
-								<p>JavaScript, ReactJS, NodeJS, VS code, PostgreSQL</p>
+								<h3 class="colored-title">Music Playlist</h3>
+								<p>ReactJS, NodeJS, VS code, PostgreSQL</p>
 								<p>Teams of two</p>
 								<p>JavaScript application that allows users to create new playlists and add or remove songs from their playlists. Songs are retrieved from Discogs API.</p>
 								<ul class="actions special">
@@ -89,8 +100,8 @@
 
 							<section class="box special">
 								<span class="image featured"><img src="images/MakeupAppBanner.jpg" alt="" /></span>
-								<h3>Makeup Wishlist</h3>
-								<p>GoLang, Eclipse, SQLite </p>
+								<h3 class="colored-title">Makeup Wishlist</h3>
+								<p>Eclipse, SQLite </p>
 								<p>Individual project</p>
 								<p>GoLang application that allows users to add or remove makeup items to their wishlist. Application equally uses cookies to customize title.</p>
 								<ul class="actions special">
@@ -106,8 +117,8 @@
 
 							<section class="box special">
 								<span class="image featured"><img src="images/LibraryBanner.jpg" alt="" /></span>
-								<h3>Library</h3>
-								<p>Java, Eclipse, SQLite</p>
+								<h3 class="colored-title">Library</h3>
+								<p>Eclipse, SQLite</p>
 								<p>Individual project</p>
 								<p>Java application that simulates a library. Users are able to borrow and return books. Admin users are able to view, add, update, and remove books and/or members.</p>
 								<ul class="actions special">
@@ -122,8 +133,8 @@
 
 							<section class="box special">
 								<span class="image featured"><img src="images/ShoppingAppBanner.jpg" alt="" /></span>
-								<h3>Shopping App</h3>
-								<p>C#, XAML, Visual Studio, Microsoft SQL Server</p>
+								<h3 class="colored-title">Shopping App</h3>
+								<p>XAML, Visual Studio, Microsoft SQL Server</p>
 								<p>Teams of two</p>
 								<p>WPF desktop application that simulates a shopping application. 
 									Users are able to add or remove items from their shopping carts. 
@@ -140,8 +151,8 @@
 
 							<section class="box special">
 								<span class="image featured"><img src="images/TicTacToeBanner.jpg" alt="" /></span>
-								<h3>Tic Tac Toe</h3>
-								<p>Java, IntelliJ, MVC</p>
+								<h3 class="colored-title">Tic Tac Toe</h3>
+								<p>IntelliJ, MVC</p>
 								<p>Teams of two</p>
 								<p>Classic Tic Tac Toe game using Java Swing graphical user interface. Additonal features: players' score (rounds won) are displayed above the board and board size can be changed (3 x 3, 4 x 4 or 5 x 5). </p>
 								<ul class="actions special">
@@ -156,8 +167,8 @@
 
 							<section class="box special">
 								<span class="image featured"><img src="images/SnakeAppBanner.jpg" alt="" /></span>
-								<h3>Snake</h3>
-								<p>C++, Visual Studio</p>
+								<h3 class="colored-title">Snake</h3>
+								<p>Visual Studio</p>
 								<p>Teams of two</p>
 								<p></p>Console-based version of the classic arcade game Snake.</p>
 								<ul class="actions special">
@@ -172,8 +183,8 @@
 
 							<section class="box special">
 								<span class="image featured"><img src="images/BankingAppBanner.jpg" alt="" /></span>
-								<h3>Banking System</h3>
-								<p>C++, Visual Studio</p>
+								<h3 class="colored-title">Banking System</h3>
+								<p>Visual Studio</p>
 								<p>Teams of two</p>
 								<p>Console application that simulates a bank.</p>
 								<ul class="actions special">
@@ -190,7 +201,7 @@
 
 			<!-- Footer -->
 				<footer id="footer">
-					<p style="margin-bottom: 1px; font-weight: bold;">Connect with me</p>
+					<p style="margin-bottom: 1px; font-weight: bold;" class="colored-title">Connect with me</p>
 					<ul class="icons">
 						<li>514-260-1167</li>
 						<li><div class="tooltip">
@@ -198,8 +209,8 @@
 								<span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
 							</a>
 						</div> </li>
-						<li><a href="https://github.com/sbajala" class="icon brands fa-github" target="_blank"><span class="label">Github</span></a></li>
-						<li><a href="https://www.linkedin.com/in/sharmainebajala/" class="icon brands fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://github.com/sbajala" class="icon brands fa-github" style="color: black" target="_blank"><span class="label">Github</span></a></li>
+						<li><a href="https://www.linkedin.com/in/sharmainebajala/" class="icon brands fa-linkedin" style="color: #0072b1 " target="_blank"><span class="label">LinkedIn</span></a></li>
 					</ul>
 					<ul class="copyright">
 						<li>&copy; Sharmaine Bajala. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>

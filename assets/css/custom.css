@@ -1,0 +1,10 @@
+.colored-title {
+    /* color: #4c7aa9; */
+    color: #6a7baf;
+    font-weight: 500;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
