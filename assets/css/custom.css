@@ -1,7 +1,13 @@
+.main-title {
+    color: #e7efff;
+    font-weight: 500;
+    text-shadow: white 0px 0px 2px;
+}
+
 .colored-title {
-    /* color: #4c7aa9; */
     color: #6a7baf;
     font-weight: 500;
+    text-shadow: white 0px 0px 2px;
 }
 
 .responsive {
