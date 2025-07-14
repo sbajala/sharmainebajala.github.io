@@ -110,7 +110,7 @@
 
 	body, input, select, textarea, .custom-button {
 		color: #777;
-		font-family: "Source Sans Pro", sans-serif;
+		font-family: "DM Sans", sans-serif;
 		font-size: 16pt;
 		font-weight: 300;
 		line-height: 1.65em;
@@ -131,7 +131,7 @@
 			border-bottom-color: transparent;
 		}
 
-	strong, b {
+	strong, b, h4 {
 		color: #6a7baf;
 		font-weight: 400;
 	}
@@ -144,7 +144,7 @@
 		margin: 0 0 2em 0;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h1, h2, h3, h5, h6 {
 		color: #646464;
 		font-weight: 300;
 		line-height: 1em;
@@ -3163,7 +3163,7 @@
 	#banner {
 		background-attachment: scroll,							fixed;
 		background-color: #666;
-		background-image: url("images/overlay.png"), url("../../images/Banner.png");
+		background-image: url("images/overlay.png"), url("../../images/header-background.png");
 		background-position: top left,						center center;
 		background-repeat: repeat,							no-repeat;
 		background-size: auto,							cover;
